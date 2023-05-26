@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail</title>
+    <link rel="stylesheet" href="../css/detail.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/detail.js"></script>
+</head>
+<body>
+    <header>
+        <div id="head">
+            <img src="../images/LogoMakerCa-1685019975781-removebg-preview.png" id="logo">
+            <input type="text" id="keyword">
+            <button type="submit" id="key"><img src="../images/free-icon-font-search-3917754.png"></button>
+            <ul id="sub">
+                
+                <li><img src="../images/free-animated-icon-shopping-cart-6172531.png" ></li>
+                
+                
+                    <li><img src="../images/free-animated-icon-profile-8121295.png" ></li>
+                    
+                   
+                    <li><img src="../images/free-animated-icon-support-6172517.png"></li>
+            </ul>
+        </div>
+    </header>
+    <main id="main">
+        <p>
+            <ul class="menu">
+                <a href=""><li>Home</li></a>
+                <a href=""><li>셔츠/블라우스</li></a>
+                <a href=""><li>원피스</li></a>
+                <a href=""><li>바지</li></a>
+                <a href=""><li>신발</li></a>
+                <a href=""><li>모자</li></a>
+            </ul>
+        </p>
+        <div class="left">
+            <img src="../images/teenage-girl-in-white-sweater-apparel-studio-portrait.jpg" id="mainimg" alt="dress">
+        </div>
+        
+        <div class="right">
+            <div class="top">
+                <br><br>
+                <h1>목 늘어짐 없는 편안한 니트</h1>
+                <p>어디서나 편하게 입을 수 있는 여리한 분위기의 니트입니다:)</p>
+                <p ><img src="../images/star-with-five-points.png" id="star">
+                    <img src="../images/star-with-five-points.png" id="star">
+                    <img src="../images/star-with-five-points.png" id="star">
+                    <img src="../images/star-with-five-points.png" id="star">
+                    <img src="../images/star-with-five-points.png" id="star"> >>5 리뷰</p>
+                <p id="c">27000원</p>
+                <h2><strong>20%</strong> 21,500원</h2>
+                <hr />
+                <p>size</p>
+                <select id="size">
+                    <option value="num1">44~66</option>
+                    <option value="num2" selected>77~88</option>
+                    <option value="num3">99~110</option>
+                </select>
+                <p>color</p>
+                <button class="button" onclick="changeColor(event)">white</button>
+                <button class="button" onclick="changeColor(event)" >gray</button>
+                <button class="button" onclick="changeColor(event)" >black</button>
+                <p><button class="button" id="buy" onclick="disClick()">구매하기</button>
+                    <button class="button" id="buy">장바구니</button></p>
+                
+            </div>
+           
+        
+        <p>
+            <ul class="menu">
+                <a href="#product"><li>상품정보</li></a>
+                <a href="#review"><li>리뷰</li></a>
+                <a href="#review1"><li>Q&A</li></a>
+                <a href="#guide"><li>소비자가이드</li></a>
+            </ul> 
+        </p>
+        </div>
+        <div id="bottom">
+            <div id="product">
+                <h1>상품정보</h1>
+                <img src="../images/wepik-export-20230525140054QDGY.png">
+                <img src="../images/shirt-mockup-concept-with-plain-clothing.jpg">
+            </div>
+            <div id="review">
+                <h1>리뷰</h1>
+                <table>
+                    <tr>
+                        <td>이름</td>
+                        <td>내용</td>
+                        <td>별점</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr><td>2</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <h1 id="review1">Q&A</h1>
+                <table>
+                    <tr>
+                        <td>아이디</td>
+                        <td>내용</td>
+                        <td>날짜</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr><td>2</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="guide">
+                <h1>소비자 가이드</h1>
+                <p>
+                    <strong>배송 세부 정보</strong>
+                    <br>무료 특급 배송오늘 주문한 상품을 2~5일 내에 받아보세요
+                <p><br><strong>매장방문수령</strong>
+                    <br>오늘 주문한 상품을 2-4영업일 내에 받아보세요</p>
+                <p><br><strong>무료 반품</strong>
+                    <br>무료 반품 서비스를 이용하세요
+                </p>
+            </div>
+
+        </div>
+        
+    </main>
+   
+
+    <hr />
+        <footer>
+        <br><a href="https://kr.freepik.com/free-photo/teenage-girl-in-white-sweater-apparel-studio-portrait_15477256.htm#query=%EC%98%B7&position=1&from_view=search&track=sph">작가 rawpixel.com</a> 출처 Freepik
+        <br><a href="https://www.flaticon.com/free-icons/star" title="star icons">Star icons created by Freepik - Flaticon</a>
+        <br><a href="https://kr.freepik.com/free-photo/simple-white-crew-neck-unisex-streetwear-apparel_16514301.htm#query=%EC%98%B7&position=0&from_view=search&track=sph">작가 rawpixel.com</a> 출처 Freepik
+        <br><a href="https://kr.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_27828368.htm#query=%EC%98%B7&position=17&from_view=search&track=sph#position=17&query=%EC%98%B7">Freepik</a>
+        <br><a href="https://www.flaticon.com/free-icons/washer" title="washer icons">Washer icons created by Freepik - Flaticon</a>
+
+        </footer>
+</body>
+</html>

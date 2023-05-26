@@ -1,0 +1,82 @@
+
+#star{
+    width: 10px;
+}
+
+.button:hover,
+.button.active
+{
+    background-color: black;
+    color: white;
+}
+.color:visited{
+    background: black;
+    color: white;
+}
+.button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: white;
+}
+
+
+select{
+    width: 300px;
+    height: 30px;
+}
+
+.top{
+    height: 640px;
+}
+#bottom img{
+    width: 500px;
+    height: 600px;
+    margin: auto;
+}
+
+#buy{
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    float:right;
+    margin: 10px;
+}
+#buy:hover{
+     background-color: black;
+    color: white;
+}
+#product{
+    height: 1500px;
+}
+table{
+    width: 1000px;
+}
+td{
+    border-bottom: 1px dotted gray;
+    height: 50px;
+}
+#c{
+    text-decoration: line-through;
+}
+#guide, #product,#review h1,#review1 h1{
+    text-align: center;
+}
+#review{
+    height: 800px;
+}
+#review1{
+    margin-top: 150px;
+}
+#guide{
+    height:400px
+}
+
+footer{
+    color: black;
+}

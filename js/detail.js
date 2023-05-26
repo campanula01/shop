@@ -1,4 +1,4 @@
-document.getElementById("size").style.backgroundColor ="gray";
+document.getElementById("size").style.backgroundColor ="white";
 document.getElementById("size").onclick = function(){
             this.style.backgroundColor ="black";
         };
@@ -13,4 +13,14 @@ function changeColor(e){
         }
     });
     console.log(e.currentTarget);
+}
+
+function disClick(e){
+    e=changeColor.apply
+    if(e==null){
+        alert("색을 선택해주세요.");
+    }
+    if(e!=null){
+        location.href="../html/order.html"
+    }
 }
