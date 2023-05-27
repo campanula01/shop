@@ -5,6 +5,7 @@
     <title>order</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/order.css">
+    <script src="../js/order.js"></script>
 </head>
 <body>
     <header>
@@ -23,8 +24,103 @@
     <main id="main">
         <hr />
         <h1>주문/결제하기</h1>
-        <p></p>
         <hr />
+        <table>
+            <tr id="ftr">
+                <td></td>
+                <td>상품정보</td>
+                <td>판매자</td>
+                <td>배송비</td>
+                <td>수량</td>
+                <td>할인</td>
+                <td>상품금액</td>
+            </tr>
+            <tr>
+                <td><img src="../images/teenage-girl-in-white-sweater-apparel-studio-portrait.jpg">
+                </td>
+                <td>목 늘어짐 없는 편안한 니트</td>
+                <td>KH</td>
+                <td>무료</td>
+                <td>1개</td>
+                <td>(-)5500원</td>
+                <td><p id="c">27000원</p>
+                    <p>21500원</p>
+                </td>
+            </tr>
+        </table>
+        <hr />
+        <div id="d">
+        
+        <form>
+            <h3>배송지 정보</h3>
+            <section>
+            <div><input type="radio" name="address">기본 배송지</div>
+            <div><input type="radio" name="address" checked>신규 배송지</div>
+            <label for="name">수령인: </label>
+            <input type="text" id="name" placeholder="필수 입력" required >
+            <p>배송지명
+            <select id="placename">
+                <option value="place1">집</option>
+                <option value="place2">회사</option>
+                <option value="place3">학교</option>
+                <option value="place4">친구</option>
+                <option value="place5">가족</option>
+            </select></p>
+            <p>연락처
+            <select id="firstPhone">
+                <option value="p1">010</option>
+                <option value="p2">011</option>
+                <option value="p3">016</option>
+                <option value="p4">017</option>
+                <option value="p5">02</option>
+                <option value="p6">031</option>
+            </select>
+            -
+            <input type="tel" id="tel" required >
+            -
+            <input type="tel" id="tel" required ></p>
+            
+            <p>배송지 주소</p>
+            <input type="text" id="address1" required >
+            <button type="button">우편번호</button>
+            <p><input type="text" id="address2" required >
+            <input type="text" id="address2" required ></p>
+            <p>배송 메모
+            <input type="text" id="memo" required ></p>
+            </section>
+        
+        <hr />
+        
+            <h3>쿠폰</h3>
+            <section>
+            <h4>쿠폰 할인</h4>
+            <p>상품/주문 쿠폰</p>
+            <p>0원</p>
+            <button type="button">쿠폰사용</button>
+            <p>배달 쿠폰</p>
+            <p>0원</p>
+            <button type="button">쿠폰사용</button>
+            </section>
+        <hr />
+        
+            <h3>결제 수단</h3>
+            <section>
+            <div><input type="radio" name="payment">계좌 간편결제</div>
+            <div><input type="radio" name="payment" checked>카드 간편결제</div>
+            <div><input type="radio" name="payment">일반 결제</div>
+        
+            <p>현금 영수증</p>
+            <div><input type="radio" name="receipt">개인소득공제용</div>
+            <div><input type="radio" name="receipt">사업자증빙용·세금계산서</div>
+            <div><input type="radio" name="receipt"> 신청안함</div>
+            <hr />
+            <p>개인정보 제공 동의 : KH 상세보기</p>
+            <p>주문 내용을 확인하였으며, 정보 제공 등에 동의합니다.</p>
+            </section>
+        <hr />
+        <button type="submit">결제하기</button>
+        </form>
+        
     </main>
     
 </body>
