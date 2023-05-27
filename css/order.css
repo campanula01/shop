@@ -5,6 +5,12 @@
     margin: 1px 0px 1px 0px;
 
 }
+h3{
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 10px;
+}
 table{
     margin: auto;
     border-collapse: collapse;
@@ -32,4 +38,39 @@ form{
 }
 section{
     padding: 0px 50px;
+}
+#tel{
+    width: 50px;
+    height: 20px;
+}
+#placename{
+    width: 50px;
+    height: 20px;
+}
+#firsttel{
+    width: 60px;
+    height: 30px;
+}
+#memo{
+    width: 400px;
+}
+#discount{
+    text-align: right;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin: 0px 40px;
+}
+
+#done{
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    margin: 0px 350px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+#done:hover{
+    background-color: white;
+    color: black;
 }
