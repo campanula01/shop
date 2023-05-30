@@ -1,0 +1,38 @@
+.clothes{
+    text-align: center;
+    padding-right: 57px;
+    float: left;
+    margin: 0;
+    height: 350px;
+    font-weight: 100;
+}
+.clothes img{
+    width: 180px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid rgb(194, 194, 194);
+}
+#sale{
+    width: 600px;
+    height: 300px;
+    margin: 0pc 150px;
+    border-radius: 50%;
+    border: 10px double darkgray;
+}
+fieldset{
+    margin: 20px;
+    border-radius: 10px;
+}
+fieldset legend{
+    font-size: 35px;
+    font-family: 'Gaegu', cursive;
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Playfair', serif;
+    font-weight: bold;
+}
+#image img{
+    width: 260px;
+    height: 310px;
+    border-radius: 10px;
+    border: 1px solid rgb(194, 194, 194);
+}

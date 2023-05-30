@@ -1,0 +1,24 @@
+fieldset{
+    text-align: center;
+    margin-inline: 300px;
+    height: 500px;
+}
+input{
+    margin-top: 30px;
+    width: 300px;
+    height: 30px;
+}
+.kakao{
+    background:url(../images/kakaologin.png)no-repeat;
+    width: 187px;
+    height: 50px;
+    border: 0px;
+    
+}
+.naver{
+    background: url(../images/naverlogin.png)no-repeat;
+    width: 187px;
+    height: 50px;
+    border: 0px;
+    background-size: contain;
+}
