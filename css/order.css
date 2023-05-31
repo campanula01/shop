@@ -58,7 +58,10 @@ section{
     text-align: right;
     border: none;
     border-bottom: 1px solid gray;
-    margin: 0px 40px;
+    margin: 0px 30px;
+}
+#discount1{
+    margin-right: 490px;
 }
 
 #done{
@@ -74,4 +77,12 @@ section{
 #done:hover{
     background-color: white;
     color: black;
+}
+
+#pi{
+    color: gray;
+    font-size: 13px;
+}
+#discount, #discount1{
+    float: right;
 }

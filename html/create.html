@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/create.css">
+    <title>회원가입</title>
+</head>
+<body>
+
+    <header id="head">
+        
+        <div>
+            
+            <a href="main.html"><img src="../images/LogoMakerCa-1685019975781-removebg-preview.png" id="logo"></a>
+        
+        </div>
+        
+    </header>
+    <main>
+        <h1>회원정보를 입력해주세요</h1>
+                
+                <input id="input" type="text" placeholder="이름을 입력하세요" name = "name" size = "60"><br/>
+            
+                <input id="input" type="text" placeholder="휴대폰 번호를 입력하세요" name = "tell" size = "60"><br/>
+                <button id="tell">인증하기</button>
+            
+                <input id="input" type="text" placeholder="아이디 입력하세요" name = "id" size = "60"><br/>
+            
+                <input id="input" type="password" placeholder="비밀번호 입력하세요" name ="password" size = "60" ><br/>
+        <div id="ol">
+            <ol>
+                <li>※영문/숫자/특수문자 2가지 이상 조합</li>
+                <li>※3개 이상 연속되거나 동일한 문자/숫자 제외</li>
+            </ol>
+        </div >    
+        
+            
+            <input id="input" type="password" placeholder="비밀번호 확인" name ="password" size = "60" >
+        
+        <hr/>
+        <br/>
+            <input type='checkbox' name='gender' value='female' onclick='selectAll(this)'/> 모두 확인하였으며 동의합니다.     <br/>
+            <br/>
+        <div id="border">
+            <input id="input_2" type='checkbox' name='gender' value='female' /> [필수] 만 14세 이상입니다.     <br/>
+            <input type='checkbox' name='gender' value='female' /> [필수] 개인정보 수집 및 이용동의<br/>
+            <input type='checkbox' name='gender' value='female' /> [선택] 이메일 수신동의<br/>
+            <input type='checkbox' name='gender' value='female' /> [선택] SMS, SNS 수신동의<br/>
+        </div>
+
+        <button id="button">가입하기</button>
+
+    </main>
+   
+    
+</body>
+</html>
