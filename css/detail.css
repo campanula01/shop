@@ -77,12 +77,11 @@ td{
     height:400px
 }
 
-footer{
+footer a{
     color: black;
 }
 #menu1{
-    display: grid;
-    float: left;
+    display: grid;  
     grid-template-columns: repeat(4,minmax(0,1fr));
     text-align: center;
     color: aliceblue;
@@ -92,4 +91,13 @@ footer{
     text-align: center;
     border-radius: 10px;
     margin: auto;
+}
+#menu1 li:hover,
+#menu1 li a:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    
+    font-weight: bold;
+    clear: left;
 }
