@@ -39,7 +39,7 @@ form{
 section{
     padding: 0px 50px;
 }
-#tel{
+#tel, #tel1{
     width: 50px;
     height: 20px;
 }
@@ -61,7 +61,7 @@ section{
     margin: 0px 30px;
 }
 #discount1{
-    margin-right: 490px;
+    margin-right: 480px;
 }
 
 #done{
