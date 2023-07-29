@@ -1,5 +1,4 @@
 body{
-    
     height: 4000px;
 }
 #head{
@@ -18,7 +17,7 @@ body{
 #key{
 border: none;
 height: 50px;
-background-color: white;
+background-color: rgb(255, 255, 255);
 margin: 40px 0px 0px 0px;
 }
 #logo{
@@ -98,4 +97,7 @@ a{
     margin: 20px 20px 20px 0px;
     float: left;
 
+}
+footer a{
+    color: black;
 }
